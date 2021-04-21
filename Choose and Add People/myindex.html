@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="heading top-header">
+     <h1>Shopping List</h1>
+     <h1>Add Remove Items</h1>
+    </div>
+    
+     <hr> 
+     <div class="main-content">
+         <div class="shop-wrapper">
+           <div class="heading">
+             <h3>My Shopping List</h3>
+             <h4><big>{{list.length}}</big> items in list</h4>
+           </div>
+           <hr> 
+         
+           <table class="styled-table">
+               <tr ng-repeat="item in list">
+                   <td>{{$index + 1}}</td>
+                   <td>{{item}}</td>
+                   <td><button class="btn btn-danger" id="remove-icon" ng-click="remove(item)">X</button></td>
+               </tr>
+           </table>
+           <input type="text" ng-model="newItem" placeholder="Type item: ">
+           <button class="btn btn-success" ng-click="addItem(newItem)" id="add-icon">Add</button>
+       
+         </div>
+       
+       <div class="show-items-wrapper">1</div>
+       
+     </div>
+  
+   
+ 
+ 
+ </div>
+     
+ 
+ 

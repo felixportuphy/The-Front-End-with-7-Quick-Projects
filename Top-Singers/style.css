@@ -1,0 +1,82 @@
+.container{
+    width:70%;
+    margin:1rem auto;
+    padding:0 0 3rem 0;
+    border-radius:8px 8px 0 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+  }
+  
+
+.heading{
+    text-align:center;
+    border-radius:8px 8px 0 0;
+    background-color:black;
+    padding:0.5rem;
+    color:white;
+  
+  }
+
+  
+.main-content{
+    margin:0 2rem;
+    border-radius:8px 8px 0 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    
+    padding:1rem 2rem;
+  }
+ 
+.top-area{
+   border: 1px solid black;
+   border-bottom:none;
+   text-align: center; 
+   padding: 5px 4px;
+}
+
+.top-size{
+    font-size: 35px;
+    margin-right:5px;
+}
+.singer-pic{
+    border: 2px solid black;
+}
+.singer-table{
+    width: 100%;
+}
+.singer-table td{
+    padding: 5px 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.quality-icon{
+    width:20px;
+}
+.quality-icon:hover{
+    width: 24px;
+    height: 24px;
+}
+.name-size{
+    width: 300px;
+    font-size: 25px;
+}
+.name-size:hover{
+    background-color:black;
+    font-size: 19px;
+    color: white;
+}
+
+button{
+    background-color:white;
+    border:2px solid black;
+    border-radius:8px;
+    width: 80px;
+    height: 50px;
+}
+
+
+
+button:hover{
+    background-color:black;
+    color:white;
+}

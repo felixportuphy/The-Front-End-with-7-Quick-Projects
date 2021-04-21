@@ -1,0 +1,38 @@
+.container{
+  width:50%;
+  margin:5rem auto;
+  padding:0 0 2rem 0;
+  border-radius:8px 8px 0 0;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+  0 3px 6px rgba(0,0,0,0.23);
+}
+
+.heading{
+    text-align:center;
+    background-color:black;
+    color:white;
+    padding:0.5rem 0;
+  
+}
+
+.main-content{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:1rem 0;
+}
+
+button {
+  width: 7rem;
+  height: 3rem;
+  font-size:1.2rem;
+}
+
+.big {
+  width:15rem;
+  height:15rem;
+  margin:0 1rem;
+  padding:1rem;
+  border:2px solid black;
+ 
+}

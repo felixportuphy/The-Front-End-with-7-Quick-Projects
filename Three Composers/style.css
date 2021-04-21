@@ -1,0 +1,77 @@
+.container{
+    width:70vw;
+    margin:2rem auto;
+    padding:1rem 2rem;
+    border-radius:5px;
+   
+}
+
+
+.heading{
+    text-align:center;
+    background-color:black;
+    color:white;
+    border-radius:5px 5px 0 0;
+  }
+
+  
+.main-content{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    column-gap:2rem;
+    padding:2rem 5rem;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+  
+  }
+
+  .art-container{
+      border:1px solid black;
+      padding:1rem 2rem;
+  }
+
+  
+
+  .songs-list-content{
+      border:1px solid black;
+      text-align:center;
+    
+  }
+
+.top-table tr{
+    width:20%;
+    margin:0.5rem 0;
+
+}
+
+.top-table td{
+   padding:1rem 2rem;
+   border:1px solid black;
+   font-size: 1.5rem;
+   border-radius:4px;
+   
+   
+}
+.top-table td:hover{
+    cursor: pointer;
+    background-color:black;
+    color:white;
+   
+}
+.top-table img{
+    height: 90px;
+    width: 90px;
+    border-radius: 20px;
+}
+
+.bottom-table tr:hover{
+    background-color:black;
+    color:white;
+}
+.bottom-table td{
+    font-size: 20px;
+    text-align: center;
+    border-bottom:1px solid black;
+    padding:0 2rem;
+    
+}

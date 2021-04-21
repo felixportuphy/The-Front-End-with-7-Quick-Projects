@@ -1,0 +1,106 @@
+.container{
+  width:70%;
+  margin:1rem auto;
+  padding:0 0 3rem 0;
+  border-radius:8px 8px 0 0;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+  0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.heading{
+  text-align:center;
+  border-radius:8px 8px 0 0;
+  background-color:black;
+  color:white;
+
+}
+
+.main-wrapper{
+  margin:0 2rem;
+  border-radius:8px 8px 0 0;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  
+  padding:1rem 2rem;
+}
+
+.main-content{
+  display:grid;
+  grid-template-columns:1fr 1.5fr;
+  column-gap:2rem;
+ border-top: 1px solid black;
+ padding:1rem;
+ /* margin:0 1rem; */
+ margin-top:1rem;
+}
+
+.filtered{
+  border-radius:8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+  0 3px 6px rgba(53, 28, 28, 0.23);
+}
+
+.listed-people{
+ border-radius:8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+  0 3px 6px rgba(53, 28, 28, 0.23);
+  padding:1rem;
+}
+
+.search-bar{
+text-align: end;
+}
+
+input[type="text"]{
+  text-align: center;
+  border:2px solid black;
+  height:3rem;
+}
+
+img{
+  width: 80px;
+  height:80px;
+  border:2px solid black;
+ border-radius:3px;
+  margin-bottom:4px;
+  animation: allImages 5s;
+  opacity: 0.4;
+  z-index:100;
+
+}
+
+img:hover{ 
+  animation: selectedImage 3s infinite;
+  opacity:1.0;
+}  
+input{
+  height: 70px;
+  width: 300px;
+  font-size: 40px;
+  padding: 0px 20px;
+  color: orange
+}
+
+span{
+  padding: 0px 6px;
+  font-size: 30px;
+  color: blue;
+
+}
+.bottom-line{
+  font-size:1.8rem;
+  font-weight:bold;
+  padding:1rem;
+
+}
+
+@keyframes allImages {
+  0% { opacity: 1.0; }
+  100% { opacity: 0.4; }
+}
+
+@keyframes selectedImage {
+  0% { background-color: yellow; }
+  50% { background-color: orange; }
+  100% { background-color: yellow; }
+}
